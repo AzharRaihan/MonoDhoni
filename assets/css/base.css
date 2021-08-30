@@ -1,0 +1,97 @@
+/**
+* Template Name: Mono Dhoni 
+* Author: Mono Dhoni  
+* Design & Development : Women In Digital 
+* Date : 22-03-2021
+*/
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+/* Font Family
+*
+*font-family: 'Josefin Sans', sans-serif;
+*
+*/
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  box-sizing: border-box;
+  font-family: 'Josefin Sans', sans-serif;
+  color: #444444;
+}
+p {
+  margin: 0;
+  padding: 0;
+  font-family: 'Josefin Sans', sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  padding: 0;
+  margin: 0;
+  font-family: 'Josefin Sans', sans-serif;
+}
+.form-control{
+    background-color: #82c35d;
+    color: white;
+    height: 55px;
+}
+.form-control:focus {
+    border-color: #82c35d;
+    background-color: #82c35d;
+    box-shadow: none;
+    color: white;
+}
+::placeholder {
+    color: white !important;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: rgb(255, 255, 255);
+}
+::-ms-input-placeholder { /* Microsoft Edge */
+    color: rgb(255, 255, 255);
+}
+.page-link:focus {
+  box-shadow: none;
+}
+.btn.focus,
+.btn:focus {
+  outline: 0;
+  box-shadow: none;
+}
+.btn-info:not(:disabled):not(.disabled).active:focus,
+.btn-info:not(:disabled):not(.disabled):active:focus,
+.show > .btn-info.dropdown-toggle:focus {
+  box-shadow: none;
+}
+.btn-danger:not(:disabled):not(.disabled).active:focus,
+.btn-danger:not(:disabled):not(.disabled):active:focus,
+.show > .btn-danger.dropdown-toggle:focus {
+  box-shadow: none;
+}
+.row {
+  padding: 0;
+  margin: 0;
+}
+a{
+    text-decoration: none;
+}
+ul {
+  padding: 0;
+  margin: 0;
+}
+ul li {
+  list-style-type: none;
+}
+::selection {
+  color: #ffffff;
+  background: #01C3B4;
+}
+

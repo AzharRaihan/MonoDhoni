@@ -1,0 +1,255 @@
+/* Header Css */
+.logo img{
+    width: 60px;
+    height: 70px;
+}
+.navbar-nav{
+    margin-left: auto !important;
+}
+.navbar-nav li{
+    padding: 10px 15px;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    color: white;
+}
+.dropdown-menu[data-bs-popper] {
+    left: -70px;
+    margin-top: .125rem;
+}
+.navbar{
+    background: #82c35d;
+}
+.navbar-light .navbar-toggler {
+    color: white;
+    border-color: rgb(255, 255, 255);
+    font-size: 13px;
+}
+.navbar-toggler {
+    padding: .10rem .25rem;
+    border-radius: .10rem;
+    background-color: white;
+}
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+/* Custom Button Css */
+.btn-submit{
+    background-color: #82c35d;
+    color: white;
+    text-align: center;
+    padding: 10px 30px;
+}
+.btn-submit:hover{
+    color: white;
+    background-color: #78bb51;
+    transition: 1s all ease;
+}
+/* Common Section Css */
+.common-section{
+    padding: 60px 0px;
+}
+.helper-wrap, .find-instant, .people, .psychologist-psychiatrist{
+    background-color: rgb(245, 245, 245);
+}
+.helper-img img{
+    margin-bottom: 30px;
+}
+/* Three Steps Css */
+.step-card{
+    width: 100%;
+    height: 150px;
+    background: #26BAD3;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: 7px 7px 10px -2px rgba(0,0,0,0.88);
+}
+.online-service-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.online-service-content h2{
+    margin-right: 10px;
+    color: #fc5354;
+    font-size: 50px;
+}
+.online-service{
+    margin-bottom: 30px;
+    background-color: #26BAD3;
+    border-radius: 5px;
+    text-align: center;
+}
+.online-service img{
+    height: 230px;
+}
+/* Find Instant Css */
+.dr-card{
+    width: 100%;
+    height: 320px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 7px 7px 10px -2px rgba(0,0,0,0.88);
+}
+.dr-card img{
+    height: 150px;
+}
+/* Research Css */
+.research-card{
+    background-color: #FECCCC;
+    padding: 5px;
+    margin-bottom: 30px;
+    text-align: center;
+    border-radius: 10px;
+}
+.research-card img{
+    height: 100%;
+    height: 230px;
+}
+.research-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(0, 0, 0);
+}
+/* Blog Css */
+.blog{
+    margin-bottom: 30px;
+}
+/* Contact Css */
+.contact{
+    background-image: linear-gradient(to bottom, #f8f8f8, #dad9e1, #bcbacb, #a09db5, #8380a0);
+    padding-top: 60px;
+}
+
+/* Client Reviews Css*/
+.client-review-wrap{
+    display: flex;
+}
+.client-review-bg-1{
+    width: 270px;
+    height: 450px;
+    background-color: #82c35d;
+    margin-left: 190px;
+    position: absolute;
+}
+.client-review-bg-2{
+    width: 360px;
+    background-color: #fc5455;
+    margin-left: 145px;
+    padding: 20px;
+    position: relative;
+    top: 76px;
+}
+.client-review-bg-2 img{
+    width: 100%;
+}
+.client-review-quotes .fa-quote-left{
+    padding-right: 20px;
+    font-size: 25px;
+}
+.client-review-quotes .fa-quote-right{
+    padding-left: 20px;
+    font-size: 25px;
+}
+.people{
+    padding-bottom: 70px;
+}
+.carousel-slide {
+    height: 450px;
+}
+/* Psychologist Psychiatrist */
+.psychologist-psychiatrist{
+    background: #ebebeb;
+}
+.psychologist{
+    display: flex;
+    margin-bottom: 30px;
+}
+.description{
+    padding-left: 15px;
+    margin: auto;
+}
+/* Footer Css*/
+.footer{
+    padding-top: 60px;
+}
+.footer .footer-header{
+    color: #6545d8;
+    text-transform: uppercase;
+}
+.footer ul li {
+    padding: 2px 0px;
+
+}
+.footer ul li a{
+    color: rgb(0, 0, 0);
+    font-weight: 400;
+    font-size: 16px;
+}
+.google-map-card{
+    background-color: #82C35D;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 50px;
+}
+.google-map-card iframe{
+    box-shadow: 7px 6px 7px -2px rgba(0,0,0,0.79);
+}
+.location-logo{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.location-logo i{
+    font-size: 40px;
+    margin-right: 30px;
+    color: #29235C;
+}
+.copy-right{
+    margin-top: -50px;
+}
+.follow-icon-wrap{
+    display: flex;
+}
+.follow-icon-wrap .facebook i{
+    background-color: #395196;
+    color: white;
+}
+.follow-icon-wrap .instagram i{
+    background-image: linear-gradient(to right bottom, #f9a054, #ff6f5f, #f43d7e, #c924a8, #683ccd);
+    color: white;
+}
+.follow-icon-wrap .linked-in i{
+    background: #3D83D9 ;
+    color: white;
+}
+.follow-icon-wrap .you-tube i{
+    background: #D40C18 ;
+    color: white;
+}
+.follow-icon-wrap .whats-app i{
+    background: #00B456 ;
+    color: white;
+}
+.follow-icon-wrap i {
+    color: #ffffff;
+    width: 30px;
+    height: 30px;
+    margin: 0px 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
